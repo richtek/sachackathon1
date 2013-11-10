@@ -1,0 +1,20 @@
+meshes/modular_floor01.vcolmesh	meshes/modular_floor01.vcolmesh	
+meshes/modular_floor01.vmesh	meshes/modular_floor01.vmesh	
+meshes/modular_wall01.vcolmesh	meshes/modular_wall01.vcolmesh	
+meshes/modular_wall01.vmesh	meshes/modular_wall01.vmesh	
+meshes/multiuvstest.vmesh	meshes/multiuvstest.vmesh	
+meshes/rubblepile01.vcolmesh	meshes/rubblepile01.vcolmesh	
+meshes/rubblepile01.vmesh	meshes/rubblepile01.vmesh	
+models/animation_1/animation_1_barbarian.model	models/animation_1/animation_1_barbarian.model	
+models/barbarian.anim	models/barbarian.anim	
+models/barbarian.model	models/barbarian.model	
+models/templevase.anim	models/templevase.anim	
+models/templevase.model	models/templevase.model	
+models/textures/barbarian_low_belt_d.tga	models/textures/barbarian_low_belt_d.tga	Usage="Undefined",sRGB=false
+models/textures/barbarian_low_body_d.tga	models/textures/barbarian_low_body_d.tga	Usage="Undefined",sRGB=false
+particles/fog_group.dds	particles/fog_group.dds	Usage="Undefined",sRGB=false
+particles/graylookuptable.dds	particles/graylookuptable.dds	Usage="Undefined",sRGB=false
+particles/smoke.dds	particles/smoke.dds	Usage="Undefined",sRGB=false
+particles/smoke_a.dds	particles/smoke_a.dds	Usage="Undefined",sRGB=false
+images/stars1.jpg	images/stars1.jpg	Usage="Undefined",sRGB=false
+images/stars2.jpg	images/stars2.jpg	Usage="Undefined",sRGB=false

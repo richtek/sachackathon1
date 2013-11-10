@@ -1,0 +1,9 @@
+<root>
+    <Resources Version="1" Count="5" PathType="Project">
+        <Resource Manager="FILE" Filename="Meshes/modular_floor01.vmesh_data\materials.xml" OwnerRes="3" Size="450" />
+        <Resource Manager="EffectLibs" Filename="Shaders\BaseShaders.ShaderLib" Size="62776" />
+        <Resource Manager="Textures" Filename="images\stars2.jpg" CustomInt="1,64" Size="1228800" />
+        <Resource Manager="Static/Dynamic Meshes" Filename="Meshes/modular_floor01.vmesh" CustomInt="1,1" Size="56" />
+        <Resource Manager="EffectLibs" Filename="Shaders\vMaterial.ShaderLib" Size="390384" />
+    </Resources>
+</root>

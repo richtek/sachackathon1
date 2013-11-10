@@ -1,0 +1,5 @@
+<root>
+    <Materials override="TRUE">
+        <Material name="wall01" diffuse="..\images\stars2.jpg" ambient="0,0,0,255" specmul="0" specexp="2" parallaxscale="-0.03" parallaxbias="-0.015" lightmapsize="512,512" lightmapID="0" userflags="0" sortingkey="0" doublesided="TRUE" Lighting="Lightmapping" pass="Auto" mobileflags="0" transparency="opaque" alphathreshold="0.25" depthwrite="TRUE" zbias="0,0,0" lightmapgran="0" />
+    </Materials>
+</root>

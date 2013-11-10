@@ -1,0 +1,552 @@
+{
+    "Configuration": {
+        "Name": "sachackathon",
+        "FormatVersion": 1,
+        "LastEditTime": 1384030404687029500
+    },
+    "Assets": {
+        "images/stars1.jpg": {
+            "AssetType": "Texture",
+            "Common": {
+                "Tags": "__NEW_ASSET__",
+                "Dependencies": [
+
+                ],
+                "Variants": [
+
+                ]
+            },
+            "File": {
+                "Hash": 3027459721,
+                "TimeStamp": 1384040702430026800,
+                "LastEditTime": 1384040709381424400
+            },
+            "Texture": {
+                "FileFormat": "JPG",
+                "Width": 640,
+                "Height": 480,
+                "HasAlpha": false,
+                "Usage": "Undefined",
+                "sRGB": false
+            },
+            "Transformations": {
+                "TemplateName": "Default"
+            }
+        },
+        "images/stars2.jpg": {
+            "AssetType": "Texture",
+            "Common": {
+                "Tags": "__NEW_ASSET__",
+                "Dependencies": [
+
+                ],
+                "Variants": [
+
+                ]
+            },
+            "File": {
+                "Hash": 3886199185,
+                "TimeStamp": 1384044011361286800,
+                "LastEditTime": 1384044040493953100
+            },
+            "Texture": {
+                "FileFormat": "JPG",
+                "Width": 640,
+                "Height": 480,
+                "HasAlpha": false,
+                "Usage": "Undefined",
+                "sRGB": false
+            },
+            "Transformations": {
+                "TemplateName": "Default"
+            }
+        },
+        "Meshes/modular_floor01.vcolmesh": {
+            "AssetType": "CollisionMesh",
+            "Common": {
+                "Tags": "__NEW_ASSET__",
+                "Dependencies": [
+
+                ],
+                "Variants": [
+
+                ]
+            },
+            "File": {
+                "Hash": 154228906,
+                "TimeStamp": 1384040701516974500,
+                "LastEditTime": 1384040702697042000
+            },
+            "Transformations": {
+                "TemplateName": "Default"
+            }
+        },
+        "Meshes/modular_floor01.vmesh": {
+            "AssetType": "StaticMesh",
+            "Common": {
+                "Tags": "__NEW_ASSET__",
+                "Dependencies": [
+                    "images/stars2.jpg",
+                    "Meshes/modular_floor01.vmesh_data/materials.xml",
+                    "Shaders/BaseShaders.ShaderLib",
+                    "Shaders/vMaterial.ShaderLib"
+                ],
+                "Variants": [
+
+                ]
+            },
+            "File": {
+                "Hash": 4084855577,
+                "TimeStamp": 1384040701519974700,
+                "LastEditTime": 1384052010619818200
+            },
+            "Transformations": {
+                "TemplateName": "Default"
+            }
+        },
+        "Meshes/modular_wall01.vcolmesh": {
+            "AssetType": "CollisionMesh",
+            "Common": {
+                "Tags": "__NEW_ASSET__",
+                "Dependencies": [
+
+                ],
+                "Variants": [
+
+                ]
+            },
+            "File": {
+                "Hash": 3475838943,
+                "TimeStamp": 1384040701711985700,
+                "LastEditTime": 1384040708338364700
+            },
+            "Transformations": {
+                "TemplateName": "Default"
+            }
+        },
+        "Meshes/modular_wall01.vmesh": {
+            "AssetType": "StaticMesh",
+            "Common": {
+                "Tags": "__NEW_ASSET__",
+                "Dependencies": [
+                    "images/stars2.jpg",
+                    "Meshes/modular_wall01.vmesh_data/materials.xml",
+                    "Shaders/BaseShaders.ShaderLib",
+                    "Shaders/vMaterial.ShaderLib"
+                ],
+                "Variants": [
+
+                ]
+            },
+            "File": {
+                "Hash": 1760551104,
+                "TimeStamp": 1384040701713985800,
+                "LastEditTime": 1384052012319915500
+            },
+            "Transformations": {
+                "TemplateName": "Default"
+            }
+        },
+        "Meshes/multiuvstest.vmesh": {
+            "AssetType": "StaticMesh",
+            "Common": {
+                "Tags": "__NEW_ASSET__",
+                "Dependencies": [
+                    "Shaders/BaseShaders.ShaderLib",
+                    "Shaders/vMaterial.ShaderLib",
+                    "Textures/scribs.tga"
+                ],
+                "Variants": [
+
+                ]
+            },
+            "File": {
+                "Hash": 2132682449,
+                "TimeStamp": 1384040701883995500,
+                "LastEditTime": 1384040708379367000
+            },
+            "Transformations": {
+                "TemplateName": "Default"
+            }
+        },
+        "Meshes/rubblePile01.vcolmesh": {
+            "AssetType": "CollisionMesh",
+            "Common": {
+                "Tags": "__NEW_ASSET__",
+                "Dependencies": [
+
+                ],
+                "Variants": [
+
+                ]
+            },
+            "File": {
+                "Hash": 2753555574,
+                "TimeStamp": 1384040701890995900,
+                "LastEditTime": 1384040708567377800
+            },
+            "Transformations": {
+                "TemplateName": "Default"
+            }
+        },
+        "Meshes/rubblePile01.vmesh": {
+            "AssetType": "StaticMesh",
+            "Common": {
+                "Tags": "__NEW_ASSET__",
+                "Dependencies": [
+                    "Meshes/rubblePile01.vmesh_data/materials.xml",
+                    "Shaders/BaseShaders.ShaderLib",
+                    "Shaders/vMaterial.ShaderLib",
+                    "Textures/Temple_Prop_Rubble_02_D.tga",
+                    "Textures/Temple_Prop_RubblePlanks_01_D.tga"
+                ],
+                "Variants": [
+
+                ]
+            },
+            "File": {
+                "Hash": 895941368,
+                "TimeStamp": 1384040701896996300,
+                "LastEditTime": 1384040708574378200
+            },
+            "Transformations": {
+                "TemplateName": "Default"
+            }
+        },
+        "Models/Animation_1/Animation_1_Barbarian.model": {
+            "AssetType": "Model",
+            "Common": {
+                "Tags": "__NEW_ASSET__",
+                "Dependencies": [
+                    "Models/Textures/barbarian_low_belt_d.tga",
+                    "Models/Textures/barbarian_low_body_d.tga",
+                    "Shaders/BaseShaders.ShaderLib",
+                    "Shaders/vMaterial.ShaderLib"
+                ],
+                "Variants": [
+
+                ]
+            },
+            "File": {
+                "Hash": 2559982908,
+                "TimeStamp": 1384040701908997000,
+                "LastEditTime": 1384040708676384000
+            },
+            "Transformations": {
+                "TemplateName": "Default"
+            }
+        },
+        "Models/Barbarian.anim": {
+            "AssetType": "Animation",
+            "Common": {
+                "Tags": "__NEW_ASSET__",
+                "Dependencies": [
+
+                ],
+                "Variants": [
+
+                ]
+            },
+            "File": {
+                "Hash": 1261117482,
+                "TimeStamp": 1384040701912997200,
+                "LastEditTime": 1384040708731387200
+            },
+            "Transformations": {
+                "TemplateName": "Default"
+            }
+        },
+        "Models/Barbarian.model": {
+            "AssetType": "Model",
+            "Common": {
+                "Tags": "__NEW_ASSET__",
+                "Dependencies": [
+                    "Shaders/BaseShaders.ShaderLib",
+                    "Shaders/vMaterial.ShaderLib",
+                    "Textures/Barbarian_Belt_Low_d.tga",
+                    "Textures/barbarian_belt_n.tga",
+                    "Textures/Barbarian_Body_Low_d.tga",
+                    "Textures/barbarian_body_n.tga"
+                ],
+                "Variants": [
+
+                ]
+            },
+            "File": {
+                "Hash": 2189397146,
+                "TimeStamp": 1384040701916997400,
+                "LastEditTime": 1384040708735387400
+            },
+            "Transformations": {
+                "TemplateName": "Default"
+            }
+        },
+        "Models/TempleVase.anim": {
+            "AssetType": "Animation",
+            "Common": {
+                "Tags": "__NEW_ASSET__",
+                "Dependencies": [
+
+                ],
+                "Variants": [
+
+                ]
+            },
+            "File": {
+                "Hash": 592976672,
+                "TimeStamp": 1384040702046004800,
+                "LastEditTime": 1384040708858394400
+            },
+            "Transformations": {
+                "TemplateName": "Default"
+            }
+        },
+        "Models/TempleVase.model": {
+            "AssetType": "Model",
+            "Common": {
+                "Tags": "__NEW_ASSET__",
+                "Dependencies": [
+                    "Shaders/BaseShaders.ShaderLib",
+                    "Shaders/vMaterial.ShaderLib",
+                    "Textures/Temple_Vase_01_d.tga"
+                ],
+                "Variants": [
+
+                ]
+            },
+            "File": {
+                "Hash": 2105119009,
+                "TimeStamp": 1384040702050005000,
+                "LastEditTime": 1384040708859394500
+            },
+            "Transformations": {
+                "TemplateName": "Default"
+            }
+        },
+        "Models/Textures/barbarian_low_belt_d.tga": {
+            "AssetType": "Texture",
+            "Common": {
+                "Tags": "__NEW_ASSET__",
+                "Dependencies": [
+
+                ],
+                "Variants": [
+
+                ]
+            },
+            "File": {
+                "Hash": 507028440,
+                "TimeStamp": 1384040702059005500,
+                "LastEditTime": 1384040708904397100
+            },
+            "Texture": {
+                "FileFormat": "TGA",
+                "Width": 256,
+                "Height": 256,
+                "HasAlpha": true,
+                "Usage": "Undefined",
+                "sRGB": false
+            },
+            "Transformations": {
+                "TemplateName": "Default"
+            }
+        },
+        "Models/Textures/barbarian_low_body_d.tga": {
+            "AssetType": "Texture",
+            "Common": {
+                "Tags": "__NEW_ASSET__",
+                "Dependencies": [
+
+                ],
+                "Variants": [
+
+                ]
+            },
+            "File": {
+                "Hash": 3860151919,
+                "TimeStamp": 1384040702094007500,
+                "LastEditTime": 1384040709261417500
+            },
+            "Texture": {
+                "FileFormat": "TGA",
+                "Width": 512,
+                "Height": 512,
+                "HasAlpha": true,
+                "Usage": "Undefined",
+                "sRGB": false
+            },
+            "Transformations": {
+                "TemplateName": "Default"
+            }
+        },
+        "Particles/Fog_Group.dds": {
+            "AssetType": "Texture",
+            "Common": {
+                "Tags": "__NEW_ASSET__",
+                "Dependencies": [
+
+                ],
+                "Variants": [
+
+                ]
+            },
+            "File": {
+                "Hash": 4062373857,
+                "TimeStamp": 1384040702106008200,
+                "LastEditTime": 1384040709283418700
+            },
+            "Texture": {
+                "FileFormat": "DDS",
+                "Width": 512,
+                "Height": 512,
+                "HasAlpha": true,
+                "Usage": "Undefined",
+                "sRGB": false
+            },
+            "Transformations": {
+                "TemplateName": "Default"
+            }
+        },
+        "Particles/GrayLookupTable.dds": {
+            "AssetType": "Texture",
+            "Common": {
+                "Tags": "__NEW_ASSET__",
+                "Dependencies": [
+
+                ],
+                "Variants": [
+
+                ]
+            },
+            "File": {
+                "Hash": 4076469953,
+                "TimeStamp": 1384040702110008400,
+                "LastEditTime": 1384040709303419900
+            },
+            "Texture": {
+                "FileFormat": "DDS",
+                "Width": 256,
+                "Height": 4,
+                "HasAlpha": true,
+                "Usage": "Undefined",
+                "sRGB": false
+            },
+            "Transformations": {
+                "TemplateName": "Default"
+            }
+        },
+        "Particles/Smoke.dds": {
+            "AssetType": "Texture",
+            "Common": {
+                "Tags": "__NEW_ASSET__",
+                "Dependencies": [
+
+                ],
+                "Variants": [
+
+                ]
+            },
+            "File": {
+                "Hash": 2546377660,
+                "TimeStamp": 1384040702116008800,
+                "LastEditTime": 1384040709329421400
+            },
+            "Texture": {
+                "FileFormat": "DDS",
+                "Width": 512,
+                "Height": 512,
+                "HasAlpha": true,
+                "Usage": "Undefined",
+                "sRGB": false
+            },
+            "Transformations": {
+                "TemplateName": "Default"
+            }
+        },
+        "Particles/Smoke_A.dds": {
+            "AssetType": "Texture",
+            "Common": {
+                "Tags": "__NEW_ASSET__",
+                "Dependencies": [
+
+                ],
+                "Variants": [
+
+                ]
+            },
+            "File": {
+                "Hash": 4103217712,
+                "TimeStamp": 1384040702263017200,
+                "LastEditTime": 1384040709359423100
+            },
+            "Texture": {
+                "FileFormat": "DDS",
+                "Width": 512,
+                "Height": 512,
+                "HasAlpha": true,
+                "Usage": "Undefined",
+                "sRGB": false
+            },
+            "Transformations": {
+                "TemplateName": "Default"
+            }
+        }
+    },
+    "TrackedFiles": {
+        "Meshes/modular_floor01.vmesh_data/materials.xml": {
+            "Hash": 0,
+            "TimeStamp": 1384052010621818300,
+            "LastEditTime": 1384040702696042000
+        },
+        "Meshes/modular_wall01.vmesh_data/materials.xml": {
+            "Hash": 0,
+            "TimeStamp": 1384052010659820500,
+            "LastEditTime": 1384040702696042000
+        },
+        "Meshes/rubblePile01.vmesh_data/materials.xml": {
+            "Hash": 0,
+            "TimeStamp": 1384040701903996700,
+            "LastEditTime": 1384040702696042000
+        },
+        "Textures/Barbarian_Belt_Low_d.tga": {
+            "Hash": 0,
+            "TimeStamp": 0,
+            "LastEditTime": 1384040708858394400
+        },
+        "Textures/barbarian_belt_n.tga": {
+            "Hash": 0,
+            "TimeStamp": 0,
+            "LastEditTime": 1384040708858394400
+        },
+        "Textures/Barbarian_Body_Low_d.tga": {
+            "Hash": 0,
+            "TimeStamp": 0,
+            "LastEditTime": 1384040708858394400
+        },
+        "Textures/barbarian_body_n.tga": {
+            "Hash": 0,
+            "TimeStamp": 0,
+            "LastEditTime": 1384040708858394400
+        },
+        "Textures/scribs.tga": {
+            "Hash": 0,
+            "TimeStamp": 0,
+            "LastEditTime": 1384040708566377700
+        },
+        "Textures/Temple_Prop_Rubble_02_D.tga": {
+            "Hash": 0,
+            "TimeStamp": 0,
+            "LastEditTime": 1384040708673383900
+        },
+        "Textures/Temple_Prop_RubblePlanks_01_D.tga": {
+            "Hash": 0,
+            "TimeStamp": 0,
+            "LastEditTime": 1384040708673383900
+        },
+        "Textures/Temple_Vase_01_d.tga": {
+            "Hash": 0,
+            "TimeStamp": 0,
+            "LastEditTime": 1384040708893396400
+        }
+    }
+}
